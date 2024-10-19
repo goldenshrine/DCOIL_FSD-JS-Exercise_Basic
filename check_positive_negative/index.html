@@ -10,15 +10,19 @@
     <script>
         let number = prompt("enter your number");
 
-        if (number <= 0){
+        if (number < 0){
             alert("the number is negative !")
         }
 
-        else if  (number >= 0){
+        // if (number <= 0){ 
+        //     alert("the number is negative !")   /// "=" lagane ka koi mtlb nhi bnta yaha par this the mistake
+        // }
+
+        else if  (number > 0){
             alert("the number is positive !")
         }
         
-        else if (number === 0){ /// abe ye samajh kyun nahi ara hai  
+        else if (number == 0){  
             alert("number = 0")
         }
 
